@@ -90,3 +90,10 @@ h1 {
   #derechos{
     text-align: center;
   }
+
+
+   nav  ul{
+      display: flex;
+      gap: 30px;
+      list-style: none;
+   }
