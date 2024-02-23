@@ -1,3 +1,8 @@
+p{
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
     font-size: 35px;
     text-align: center;
@@ -44,6 +49,7 @@ h1 {
   .prod {
     width: 400px;
     height: 250px;
+    gap: 0;
   }
 
   #pesos {
@@ -69,6 +75,7 @@ h1 {
     border: none; /* No mostrar bordes */
     cursor: pointer; /* Cambiar el cursor a una mano al pasar sobre el botón */
     border-radius: 5px; /* Bordes redondeados */
+    appearance: inherit;
   }
   
   #text-h2{
@@ -97,3 +104,24 @@ h1 {
       gap: 30px;
       list-style: none;
    }
+   img{
+    gap: 40px;
+   }
+
+   @media all and (max-width: 800px){
+      nav ul{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+      }
+      li a{
+        flex-direction: column;
+        background-color: aquamarine;
+        display: block;
+        padding: 10px 10px;
+      }
+      footer{
+        grid-template-columns: 1fr;
+      }
+   }
+
