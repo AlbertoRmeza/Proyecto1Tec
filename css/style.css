@@ -43,18 +43,28 @@ h1 {
     grid-template-columns: 1fr ;
     justify-content: space-evenly;
     gap: 15px;
+    padding: 10px;
   }
   .grid2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: space-evenly;
     gap: 15px;
+    padding: 10px;
   }
   .grid3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-evenly;
     gap: 15px;
+    padding: 10px;
+  }
+  .foot {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    gap: 15px;
+    padding: 10px;
   }
 
   .imaprod {
@@ -86,7 +96,7 @@ h1 {
     text-align: center;
   }
 
-  #catego{
+  .catego{
     text-align: center;
   }
   #catego2{
